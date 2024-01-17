@@ -3191,7 +3191,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-docs@npm:7.6.8":
+"@storybook/addon-docs@npm:7.6.8, @storybook/addon-docs@npm:^7.6.8":
   version: 7.6.8
   resolution: "@storybook/addon-docs@npm:7.6.8"
   dependencies:
@@ -12985,6 +12985,7 @@ __metadata:
     "@rollup/plugin-commonjs": "npm:^25.0.7"
     "@rollup/plugin-node-resolve": "npm:^15.2.3"
     "@storybook/addon-a11y": "npm:^7.6.8"
+    "@storybook/addon-docs": "npm:^7.6.8"
     "@storybook/addon-essentials": "npm:^7.6.8"
     "@storybook/addon-storysource": "npm:^7.6.8"
     "@storybook/react": "npm:^7.6.8"
