@@ -19,6 +19,9 @@ module.exports = {
 		{
 			name: '@storybook/addon-docs',
 			options: {
+				mdxCompileOptions: {
+					remarkPlugins: [remarkGfm],
+				},
 				mdxPluginOptions: {
 					mdxCompileOptions: {
 						remarkPlugins: [remarkGfm],
