@@ -1,8 +1,8 @@
-const remarkGfm = require('remark-gfm');
+import remarkGfm from 'remark-gfm';
 
-const prettierConfig = require('../.prettierrc.js');
+import type { StorybookConfig } from '@storybook/react-webpack5';
 
-module.exports = {
+const config: StorybookConfig = {
 	stories: ['../stories/**/*.stories.@(ts|tsx|js|jsx|mdx)'],
 
 	typescript: {
@@ -63,3 +63,5 @@ module.exports = {
 		options: {},
 	},
 };
+
+export default config;
