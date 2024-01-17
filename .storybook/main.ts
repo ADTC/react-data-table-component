@@ -17,15 +17,15 @@ module.exports = {
 
 	addons: [
 		{
-      name: '@storybook/addon-docs',
-      options: {
-        mdxPluginOptions: {
-          mdxCompileOptions: {
-            remarkPlugins: [remarkGfm],
-          },
-        },
-      },
-    },
+			name: '@storybook/addon-docs',
+			options: {
+				mdxPluginOptions: {
+					mdxCompileOptions: {
+						remarkPlugins: [remarkGfm],
+					},
+				},
+			},
+		},
 		{
 			name: '@storybook/addon-storysource',
 			options: {
@@ -36,7 +36,9 @@ module.exports = {
 		},
 		{
 			name: '@storybook/addon-essentials',
-			options: {},
+			options: {
+        docs: false,
+      },
 		},
 		{
 			name: '@storybook/addon-a11y',
